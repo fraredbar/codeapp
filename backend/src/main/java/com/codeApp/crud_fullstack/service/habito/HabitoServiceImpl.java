@@ -18,7 +18,7 @@ public class HabitoServiceImpl implements HabitoService{
     }
 
     @Override
-    public Habito findById(Integer id) {
+    public List<Habito> findByUserId(Integer id) {
         return null;
     }
 }

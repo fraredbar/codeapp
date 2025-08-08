@@ -5,50 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cbb1d68-4f80-48a9-91d4-66bd4f020737" name="Changes" comment="first version">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/CrudFullstackApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/DailyHabitStatusController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/DailyLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/EmployeeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/GratitudeEntryController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/HabitoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/controller/QuotesController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/DailyHabitStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/DailyLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/GratitudeEntry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/Habito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/Quotes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/DailyHabitStatusRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/DailyLogRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/EmployeeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/GratitudeEntryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/HabitoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/repository/QuotesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/security/EmployeeDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/security/JwtFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/security/JwtUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/dailyHabitStatus/DailyHabitStatusService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/dailyHabitStatus/DailyHabitStatusServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/dailyLog/DailyLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/dailyLog/DailyLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/employee/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/employee/EmployeeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/gratitudeEntry/GratitudeEntryService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/gratitudeEntry/GratitudeEntryServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/quotes/QuotesService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeApp/crud_fullstack/service/quotes/QuotesServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codeApp/crud_fullstack/CrudFullstackApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/controller/HabitoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/controller/HabitoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/codeApp/crud_fullstack/service/habito/HabitoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/my-app/src/app/components/habit-list/habit-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/my-app/src/app/components/habit-list/habit-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/my-app/src/app/components/habit-list/habit-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/my-app/src/app/components/habit-list/habit-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/my-app/src/app/pages/login/login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/my-app/src/app/pages/login/login.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/my-app/src/app/service/habit-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/my-app/src/app/service/habit-service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +61,6 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/fredondo/Desktop/crud-fullstack/crud-fullstack",
     "project.structure.last.edited": "Project",

@@ -28,7 +28,6 @@ export class Login implements OnInit{
   }
 
   ngOnInit(): void {
-  
   }
  
   onSubmit() {

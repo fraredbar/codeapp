@@ -7,5 +7,5 @@ import java.util.List;
 public interface HabitoService {
     Habito save(Habito c);
     List<Habito> findAll();
-    Habito findById(Integer id);
+    List<Habito> findByUserId(Integer id);
 }

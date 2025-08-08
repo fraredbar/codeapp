@@ -1,4 +1,25 @@
 <h2>Mis Hábitos</h2>
+
+<!-- Formulario para añadir un hábito -->
+<form (ngSubmit)="addHabit()" #habitForm="ngForm">
+  <input type="text"
+         placeholder="Nombre del hábito"
+         [(ngModel)]="newHabit.name"
+         name="name"
+         required>
+  
+  <input type="text"
+         placeholder="Categoría"
+         [(ngModel)]="newHabit.category"
+         name="category"
+         required>
+
+  <button type="submit" [disabled]="habitForm.invalid">Añadir</button>
+</form>
+
+<hr>
+
+<!-- Lista de hábitos -->
 <ul>
   @for (habit of habits; track habit.id) {
     <li>{{ habit.name }} - {{ habit.category }}</li>
