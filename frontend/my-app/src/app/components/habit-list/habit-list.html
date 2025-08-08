@@ -1,0 +1,6 @@
+<h2>Mis Hábitos</h2>
+<ul>
+  @for (habit of habits; track habit.id) {
+    <li>{{ habit.name }} - {{ habit.category }}</li>
+  }
+</ul>

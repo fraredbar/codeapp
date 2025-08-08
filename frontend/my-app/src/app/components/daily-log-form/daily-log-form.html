@@ -1,0 +1,10 @@
+<h2>¿Qué hábitos cumpliste hoy?</h2>
+<form (ngSubmit)="submit()">
+    @for(habit of habits;track habit.id){
+    <label>
+      <input type="checkbox" [(ngModel)]="habit.completed" name="{{ habit.id }}">
+      {{ habit.name }}
+    </label>
+}
+  <button type="submit">Guardar</button>
+</form>
